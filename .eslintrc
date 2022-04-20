@@ -1,0 +1,9 @@
+{
+  "extends": "umi",
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    // "prettier/prettier": "warn"
+  }
+}
