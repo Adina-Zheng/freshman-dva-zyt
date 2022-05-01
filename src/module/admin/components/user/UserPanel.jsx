@@ -199,7 +199,7 @@ class UserPanel extends React.Component {
       })
     }
   }
-
+  //注释
   render() {
     const rowSelection = {
       selectedRowKeys: this.state.selectedRowKeys,
@@ -276,10 +276,10 @@ class UserPanel extends React.Component {
             <Form.Item>
               <Button onClick={this.onClose} style={{ marginRight: 8 }}>
                 Cancel
-            </Button>
+              </Button>
               <Button type="primary" htmlType="submit">
                 OK
-            </Button>
+              </Button>
             </Form.Item>
           </Form>
 
